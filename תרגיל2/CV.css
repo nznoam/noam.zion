@@ -1,0 +1,43 @@
+h1{
+    color: black;
+    size: 1000px;
+}
+body{
+    background-image: url(borderimage.jpg);
+    
+}
+.grid1{
+    display: grid;
+}
+.item1{
+
+    grid-column-start: 2;
+    grid-column-end: 2;
+    background-color: white ;
+    padding: 30px;
+    border: 3px solid blue;
+    margin: 30px;
+}
+.item2{  
+     grid-column-start: 1;
+    grid-column-end: 1;
+    background-color: white ;
+    padding: 30px;
+    border: 3px solid blue;
+    margin: 30px;}
+    .item3{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        background-color: white ;
+        padding: 30px;
+        border: 3px solid blue;
+        margin: 30px;
+    }
+    .item4{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        background-color: white ;
+        padding: 30px;
+        border: 3px solid blue;
+        margin: 30px;
+    }
