@@ -1,0 +1,71 @@
+*{font-family:fantasy;
+    }
+    :root{
+        --mycolor: #721b1b
+        --background: #e9dbdb 
+    }
+h1{
+    color:var(--mycolor);
+    size:  7vw;
+   font-family: fantasy;
+}
+h2{
+    color: var(--mycolor);
+    size:  3vw;
+   font-family: fantasy; 
+}
+
+body{
+    background-image: url(borderimage.jpg);
+    background-size: cover ;
+    
+}
+.grid1{
+    display: grid;
+}
+
+.education{  
+grid-column-start: 1;
+ grid-column-end: 1;
+    background-color: var(--background) ;
+    padding: 1vw;
+    animation-name: change;
+    animation-duration: 10s ;
+   animation-iteration-count: infinite;
+   text-align: center;
+ }
+.skills{
+        grid-column-start: 2;
+        grid-column-end: 2;
+        background-color: var(--background) ;
+        padding: 1vw;
+        animation-name: change;
+ animation-duration: 10s ;
+animation-iteration-count: infinite;
+text-align: center;
+    }
+ .expirience{
+        grid-column-start: 3;
+        grid-column-end: 3;
+        background-color: var(--background) ;
+        padding: 1vw;
+        animation-name: change;
+ animation-duration: 10s ;
+animation-iteration-count: infinite;
+text-align: center;
+    }
+    input[type="submit"] {
+        font-size: large;
+      
+    } 
+    input[type="text"] {
+        border:green;
+        background-color:rgba(112, 116, 139, 0.4);
+        border-radius: 5px;
+        }
+
+
+    @keyframes change{
+        from{background-color: clear ;}
+        to{background-color:yellow ; } 
+    }
